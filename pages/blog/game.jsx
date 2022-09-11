@@ -9,6 +9,7 @@ return(
      data.map(({id, title, thumbnail}) => (
         <div className="mt-5" key={id}>
         <h3 className="text-purple-500">{title}</h3>
+        <h5>ha</h5>
         <h4>{id}</h4>
          <img src={ thumbnail}/>     
 
@@ -19,6 +20,7 @@ return(
     }
     </Layout>
 )}
+
 
 export async function getStaticProps (){
 try{
